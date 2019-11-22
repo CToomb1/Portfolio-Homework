@@ -2,14 +2,25 @@
     box-sizing: border-box;
 }
 
-header {
-    background: white;
-    border-bottom: 5px solid teal;
+:root {
+ --light:gray; 
+ --light-blue: #337EAA;
+ --sapphire: #1D6768;
+  --dark-blue: #29364F;
+  --dark: #181B26;
 }
 
-.page-wrapper {
-    width: 90%; 
-    margin: 0 auto;
-    display: flex;
-    justify-content: space-between;
+body {
+    background-color: var(--light);
+    margin: 0;
+    padding: 0;
+    font-family: 'Times New Roman', Times, serif
 }
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Calistoga', cursive;
