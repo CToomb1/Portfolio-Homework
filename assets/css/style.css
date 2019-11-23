@@ -13,8 +13,6 @@
 body {
     background-image: url("../images/embossed-diamond.jpg");
     background-color: #ffffff;
-    border-style: solid;
-    border-color: #dddddd;
     margin: 0;
     padding: 0;
     font-family: 'Times New Roman', Times, serif
@@ -29,4 +27,8 @@ header {
 footer {
     background-color: #666666;
     border-top: 8px solid #4aaaa5;
+}
+html {
+    display: block;
+    color: black
 }
