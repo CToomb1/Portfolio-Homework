@@ -11,6 +11,7 @@
 }
 
 body {
+    background-image: url("../images/embossed-diamond.jpg");
     background-color: #ffffff;
     border-style: solid;
     border-color: #dddddd;
