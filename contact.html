@@ -1,81 +1,43 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" class="bg">
 
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Conor's Contacts</title>
+    <link rel="stylesheet" href="assets/css/reset.css">
     <link rel="stylesheet" href="assets/css/style.css" />
 </head>
 
 <body>
     <header>
-        <div class="container" style="
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            width: 960px;
-            margin: 0 auto;
-            ">
-            <h1>Conor Toomb</h1>
+        <div class="page-wrapper">
+            <h1>Conor Toomb\</h1>
             <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
+                <a class="link" href="index.html">About | </a>
+                <a class="link" href="portfolio.html">Portfolio | </a>
+                <a class="link" href="#">Contact</a>
             </nav>
         </div>
     </header>
     <main>
-        <ul>
-            <li>Phone Number: 862-219-9328</li>
-            <li>mail: conor.toomb114@gmail.com</li>
-            <li>Github: CToomb</li>
-        </ul>
+        <h2 class="me">Contact</h2>
+        <form action="">
+            Name:<br>
+            <input type="text" name="fullname" value="Bob Bobson">
+        </form>
+        <form action="">
+            Email:<br>
+            <input type="text" name="email" value="bob.bobson@gmail.com">
+        </form>
+        <form action="">
+            Message:<br>
+            <input class="message" type="text" name="message">
+        </form>
+        <input type="submit">
     </main>
-
-    <footer> Copyright ©
-    </footer>
-    <style>
-        h1 {
-            font-family: Georgia, 'Times New Roman', Times, serif;
-            font-size: 55px;
-            text-align: left;
-            margin-bottom: 10px;
-            margin-left: 10px;
-            margin-right: 80px;
-            padding-left: 15px;
-            padding-right: 15px;
-            text-emphasis: weight;
-            background-color: darkgray;
-            color: white;
-        }
-
-        ul {
-            font-family: Arial, Helvetica, sans-serif;
-            font-size: 30px;
-            text-align: left;
-            margin-top: 8px;
-            margin-bottom: 8px;
-        }
-
-        nav {
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: right;
-            font-size: 15px;
-            font-weight: bold;
-            float: right;
-            margin-right: 75px;
-        }
-
-        footer {
-            font-family: Arial, Helvetica, sans-serif;
-            text-align: center;
-            font-size: 20px;
-            padding-top: 10px;
-            padding-bottom: 10px;
-        }
-    </style>
+    <div class="content">
+        Copyright ©
+    </div>
 </body>
-
-</html>
