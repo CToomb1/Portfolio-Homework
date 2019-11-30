@@ -108,7 +108,7 @@ input {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 15px;
-    background-image: url(assets/images/Movies.jpg);
+    background-image: url("assets/images/Movies.jpg");
     background-size: cover;
     background-position: center;
     padding: 20px 0;
@@ -123,7 +123,7 @@ input {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 15px;
-    background-image: url(assets/images/Music.jpg);
+    background-image: url("assets/images/Music.jpg");
     background-size: cover;
     background-position: center;
     padding: 20px 0;
@@ -138,7 +138,7 @@ input {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 15px;
-    background-image: url(assets/images/Social Media.jpg);
+    background-image: url("assets/images/Social Media.jpg");
     background-size: cover;
     background-position: center;
     padding: 20px 0;
@@ -153,7 +153,7 @@ input {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 15px;
-    background-image: url(assets/images/Stand-Up-Comedy.jpg);
+    background-image: url("assets/images/Stand-Up-Comedy.jpg");
     background-size: cover;
     background-position: center;
     padding: 20px 0;
@@ -169,7 +169,7 @@ input {
     font-size: 22px;
     font-weight: bold;
     margin-bottom: 15px;
-    background-image: url(assets/images/Video Games.jpg);
+    background-image: url("assets/images/Video Games.jpg");
     background-size: cover;
     background-position: center;
     padding: 20px 0;
