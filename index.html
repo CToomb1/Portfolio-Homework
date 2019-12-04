@@ -1,41 +1,76 @@
 <!DOCTYPE html>
-<html lang="en" class="bg">
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
     <title>Conor's Portfolio Website</title>
-    <link rel="stylesheet" href="assets/css/style.css">
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Kurale|Merienda&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div class="page-wrapper">
-            <h1>Conor Toomb</h1>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav>
+
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: slategrey;">
+        <span class="navbar-brand mb-1 h1" style="font-family: 'Merienda', cursive;">Conor Toomb</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-family: 'Kurale', serif;">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="portfolio.html" style="font-family: 'Kurale', serif;">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="font-family: 'Kurale', serif;">Contact</a>
+                </li>
+            </ul>
         </div>
-    </header>
-    <main>
-        <h2 class="me">Get To Know Me</h2>
-        <div class="flex-container">
-            <img src="assets/images/bio-pic.jpg" alt="Conor Toomb" height="200" width="200">
-            <p>My name is Conor Toomb. I am a graduate of Canisius College in Buffalo, New York with a Bachelor of the
-                Arts in Communication Studies. I work as a part time stand up comedian performing at small
-                "hole-in-the-wall" style clubs. I am beginner coder but learning more everyday. I hope to learn as much
-                as I can about coding as time goes on. I have decided to learn coding primarily to make myself more
-                marketable to a wider variety of job fields. The world is in the digital age, and we must learn new
-                skills in technolgoical fields such as coding or data science to manage to work and live in it. I
-                believe coding is a valuable skill and is a good fit for my creative personality and I hope to show that
-                as time goes on both during and beyond the Rutgers Coding BootCamp.
-                </p>
+    </nav>
+
+
+    <div class="container">
+        <div class="row">
+            <div class="col-12 col-md-8 col-sm-4">
+                <div class="page-header">
+                    <h1 class="text-center" style="font-family: 'Raleway', sans-serif;">About Me</h1>
+                </div>
+                <div class="row">
+                    <div class="col-12 col-md-4 col-sm-8">
+
+                        <img src="assets/images/bio-pic.jpg" />
+                    </div>
+                    <div class="col-12 col-md-8 col-sm-4">
+                        <p style="font-family: 'Raleway', sans-serif;">
+                            My name is Conor Toomb. I am a graduate of Canisius College in Buffalo, New York with a
+                            Bachelor of the Arts in Communication Studies. I work as a part time stand up comedian performing at small
+                            "hole-in-the-wall" style clubs. I am beginner coder but learning more everyday. I hope to
+                            learn as much as I can about coding as time goes on. I have decided to learn coding primarily to make
+                            myself more marketable to a wider variety of job fields. The world is in the digital age, and we must
+                            learn new skills in technolgoical fields such as coding or data science to manage to work and live in
+                            it. I believe coding is a valuable skill and is a good fit for my creative personality and I hope
+                            to show that as time goes on both during and beyond the Rutgers Coding BootCamp.
+                        </p>
+                    </div>
+                </div>
+            </div>
         </div>
-    </main>
-    <div class="content">
-        Copyright ©
     </div>
+
+    <nav class="navbar fixed-bottom navbar-light bg-light justify-content-center">
+        <h5 class="text-secondary">Copyright ©</h5>
+    </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
+</html>

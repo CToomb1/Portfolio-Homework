@@ -16,7 +16,7 @@ body {
 h1 {
     display: inline-block;
     background-color: #4aaaa5;
-    font-family: 'Georgia', Times, 'Times New Roman', serif;
+    font-family: 'Merienda', cursive;
     color: #ffffff;
     margin: 0;
     font-size: 55px;
@@ -58,7 +58,7 @@ img {
 
 p {
     color: #777777;
-    font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
+    font-family: 'Kurale', serif;
     line-height: 1.5;
     padding-top: 20px;
 }
@@ -86,7 +86,7 @@ header {
 .content {
     background-color: #666666;
     border-top: solid #4aaaa5 8px;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-family: 'Kurale', serif;
     color: #ffffff;
     font-size: 8px;
     text-align: center;
