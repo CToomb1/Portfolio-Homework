@@ -1,46 +1,81 @@
 <!DOCTYPE html>
-<html lang="en" class="bg">
+<html lang="en-us">
 
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Conor's Basic Porfolio</title>
-    <link rel="stylesheet" href="assets/css/style.css" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>Conor's Basic Portfolio</title>
+
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" />
+    <link href="https://fonts.googleapis.com/css?family=Kurale|Luckiest+Guy&display=swap" rel="stylesheet">
 </head>
 
 <body>
-    <header>
-        <div class="page-wrapper">
-            <h1>Conor Toomb</h1>
-            <nav>
-                <a href="index.html">About</a>
-                <a href="portfolio.html">Portfolio</a>
-                <a href="contact.html">Contact</a>
-            </nav> 
+    <!-- Start Nav -->
+    <nav class="navbar navbar-expand-lg navbar-light" style="background-color: slategrey">
+        <span class="navbar-brand mb-1 h1" style="font-family: 'Luckiest Guy', cursive;">Conor Toomb</span>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="nav navbar-nav navbar-right">
+                <li class="nav-item">
+                    <a class="nav-link" href="index.html" style="font-family: 'Kurale', sans-serif;">About</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#" style="font-family: 'Kurale', sans-serif;">Portfolio</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="contact.html" style="font-family: 'Kurale', sans-serif;">Contact</a>
+                </li>
+            </ul>
         </div>
-    </header>
-    <main>
-        <h2>Portfolio</h2>
-        <div class="flexbox-portfolio">
-            <div class="hangman">
-                <span>Hangman</span>
+    </nav>
+
+    <div class="container">
+        <div class="row h-75 w-75 justify-content-md-center">
+            <div class="col-6 col-md-5 col-sm-5">
+                <img src="assets/images/Movies.jpg" />
+                <h2 class="text-white text-center bg-dark">Hangman</h2>
             </div>
-            <div class="RPG">
-                <span>RPG</span>
-            </div>
-            <div class="trivia">
-                <span>Trivia</span>
-            </div>
-            <div class="rutgers">
-                <span>Rutgers Info Widget</span>
-            </div>
-            <div class="rock">
-                <span>Rock Paper Scissors</span>
+            <div class="col-6 col-md-5 col-sm-5">
+                <img src="assets/images/Music.jpg" />
+                <h2 class="text-white text-center bg-dark">RPG</h2>
             </div>
         </div>
-    </main>
-    <div class="content">
-        Copyright ©
+
+        <div class="row h-75 w-75 justify-content-md-center">
+            <div class="col-6 col-md-5 col-sm-5">
+                <img src="assets/images/Stand-Up-Comedy.jpg" />
+                <h2 class="text-white text-center bg-dark">Trivia</h2>
+            </div>
+            <div class="col-6 col-md-5 col-sm-5">
+                <img src="assets/images/Social-Media.jpg" />
+                <h2 class="text-white text-center bg-dark">Rutgers Info Widget</h2>
+            </div>
+        </div>
+
+        <div class="row h-75 w-75 justify-content-md-center">
+            <div class="col-6 col-md-5 col-sm-5">
+                <img src="assets/images/Video-Games.jpg" />
+                <h2 class="text-white text-center bg-dark">Rock Paper Scissors</h2>
+            </div>
+        </div>
     </div>
+
+    <nav class="navbar fixed-bottom navbar-light bg-light text-center justify-content-center">
+        <h class="text-secondary" 5>Copyright ©</h5>
+    </nav>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js"></script>
+
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
 </body>
+
+</html>
